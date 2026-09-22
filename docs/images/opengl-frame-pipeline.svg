@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+  <rect width="1400" height="850" fill="#fbfaf7"/>
+  <text x="70" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#1e293b">One OpenGL Frame</text>
+  <text x="70" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#526173">What happens every time the loop draws</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#0f766e"/>
+    </marker>
+  </defs>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="90" y="230" width="210" height="150" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="125" y="285" font-size="27" font-weight="700" fill="#1e293b">Clear</text>
+    <text x="125" y="325" font-size="19" fill="#526173">erase previous</text>
+    <text x="125" y="352" font-size="19" fill="#526173">color and depth</text>
+
+    <rect x="385" y="230" width="210" height="150" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="420" y="285" font-size="27" font-weight="700" fill="#1e293b">Use Shader</text>
+    <text x="420" y="325" font-size="19" fill="#526173">choose GPU</text>
+    <text x="420" y="352" font-size="19" fill="#526173">program</text>
+
+    <rect x="680" y="230" width="210" height="150" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="715" y="285" font-size="27" font-weight="700" fill="#1e293b">Set Uniforms</text>
+    <text x="715" y="325" font-size="19" fill="#526173">send model, view,</text>
+    <text x="715" y="352" font-size="19" fill="#526173">projection matrices</text>
+
+    <rect x="975" y="230" width="210" height="150" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="1010" y="285" font-size="27" font-weight="700" fill="#1e293b">Draw</text>
+    <text x="1010" y="325" font-size="19" fill="#526173">GPU turns</text>
+    <text x="1010" y="352" font-size="19" fill="#526173">triangles to pixels</text>
+
+    <line x1="310" y1="305" x2="370" y2="305" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="605" y1="305" x2="665" y2="305" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="900" y1="305" x2="960" y2="305" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <rect x="385" y="520" width="500" height="110" rx="18" fill="#ecfdf5" stroke="#99f6e4"/>
+    <text x="430" y="565" font-size="28" font-weight="700" fill="#134e4a">Swap Buffers</text>
+    <text x="430" y="602" font-size="21" fill="#526173">show the finished frame on screen</text>
+
+    <path d="M1080 390 C1080 500 850 575 900 575" fill="none" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M370 575 C180 575 170 430 195 395" fill="none" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <text x="470" y="735" font-size="28" font-weight="700" fill="#1e293b">This repeats until the window closes.</text>
+  </g>
+</svg>

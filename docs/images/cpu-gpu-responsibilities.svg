@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+  <rect width="1400" height="850" fill="#f8fafc"/>
+  <text x="70" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#111827">CPU vs GPU Responsibilities</text>
+  <text x="70" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#4b5563">A beginner mental model for your project</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="90" y="220" width="520" height="500" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="130" y="285" font-size="38" font-weight="700" fill="#1d4ed8">CPU Side</text>
+    <text x="130" y="335" font-size="24" fill="#111827">Your C++ code</text>
+    <line x1="130" y1="365" x2="570" y2="365" stroke="#dbe4ee" stroke-width="2"/>
+    <text x="130" y="420" font-size="25" fill="#374151">1. Create window with GLFW</text>
+    <text x="130" y="470" font-size="25" fill="#374151">2. Load OpenGL functions</text>
+    <text x="130" y="520" font-size="25" fill="#374151">3. Build shaders</text>
+    <text x="130" y="570" font-size="25" fill="#374151">4. Upload vertices and indices</text>
+    <text x="130" y="620" font-size="25" fill="#374151">5. Send uniforms each frame</text>
+    <text x="130" y="670" font-size="25" fill="#374151">6. Request draw calls</text>
+
+    <rect x="790" y="220" width="520" height="500" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="830" y="285" font-size="38" font-weight="700" fill="#be123c">GPU Side</text>
+    <text x="830" y="335" font-size="24" fill="#111827">Graphics hardware</text>
+    <line x1="830" y1="365" x2="1270" y2="365" stroke="#dbe4ee" stroke-width="2"/>
+    <text x="830" y="420" font-size="25" fill="#374151">1. Store buffers in GPU memory</text>
+    <text x="830" y="470" font-size="25" fill="#374151">2. Run vertex shader</text>
+    <text x="830" y="520" font-size="25" fill="#374151">3. Assemble triangles</text>
+    <text x="830" y="570" font-size="25" fill="#374151">4. Rasterize triangles into pixels</text>
+    <text x="830" y="620" font-size="25" fill="#374151">5. Run fragment shader</text>
+    <text x="830" y="670" font-size="25" fill="#374151">6. Write final image to framebuffer</text>
+
+    <path d="M630 420 C700 380 710 380 770 420" fill="none" stroke="#64748b" stroke-width="5"/>
+    <path d="M770 420 L748 410 L752 435 Z" fill="#64748b"/>
+    <text x="635" y="485" font-size="23" font-weight="700" fill="#334155">Commands</text>
+    <text x="650" y="520" font-size="23" font-weight="700" fill="#334155">and data</text>
+
+    <path d="M770 610 C700 655 690 655 630 610" fill="none" stroke="#64748b" stroke-width="5"/>
+    <path d="M630 610 L652 600 L648 625 Z" fill="#64748b"/>
+    <text x="640" y="705" font-size="23" font-weight="700" fill="#334155">Pixels on</text>
+    <text x="665" y="738" font-size="23" font-weight="700" fill="#334155">screen</text>
+  </g>
+</svg>

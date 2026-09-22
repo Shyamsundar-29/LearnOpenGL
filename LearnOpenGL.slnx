@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="GameMath/GameMath.vcxproj" Id="c7f724a7-2fe7-4f5e-8180-e0481b87662a" />
   <Project Path="LearnOpenGL/LearnOpenGL.vcxproj" Id="60e4536e-2324-418c-938d-8b6a892d8590" />
 </Solution>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#f7f8fb"/>
+  <text x="70" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#152238">C++ and OpenGL Learning Map</text>
+  <text x="70" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#4c5b70">From C# thinking to real-time graphics thinking</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f6fed"/>
+    </marker>
+  </defs>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="80" y="230" width="250" height="130" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="115" y="282" font-size="28" font-weight="700" fill="#152238">1. C++ Basics</text>
+    <text x="115" y="320" font-size="20" fill="#4c5b70">variables, functions,</text>
+    <text x="115" y="348" font-size="20" fill="#4c5b70">structs, pointers</text>
+
+    <rect x="420" y="230" width="250" height="130" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="455" y="282" font-size="28" font-weight="700" fill="#152238">2. Window</text>
+    <text x="455" y="320" font-size="20" fill="#4c5b70">GLFW creates a</text>
+    <text x="455" y="348" font-size="20" fill="#4c5b70">place to draw</text>
+
+    <rect x="760" y="230" width="250" height="130" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="795" y="282" font-size="28" font-weight="700" fill="#152238">3. OpenGL</text>
+    <text x="795" y="320" font-size="20" fill="#4c5b70">API that talks</text>
+    <text x="795" y="348" font-size="20" fill="#4c5b70">to the GPU</text>
+
+    <rect x="1080" y="230" width="250" height="130" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="1115" y="282" font-size="28" font-weight="700" fill="#152238">4. Shaders</text>
+    <text x="1115" y="320" font-size="20" fill="#4c5b70">tiny GPU programs</text>
+    <text x="1115" y="348" font-size="20" fill="#4c5b70">for position/color</text>
+
+    <line x1="340" y1="295" x2="405" y2="295" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="680" y1="295" x2="745" y2="295" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="1020" y1="295" x2="1065" y2="295" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <rect x="250" y="510" width="280" height="140" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="285" y="562" font-size="28" font-weight="700" fill="#152238">5. Buffers</text>
+    <text x="285" y="600" font-size="20" fill="#4c5b70">copy vertices and</text>
+    <text x="285" y="628" font-size="20" fill="#4c5b70">indices to GPU memory</text>
+
+    <rect x="620" y="510" width="280" height="140" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="655" y="562" font-size="28" font-weight="700" fill="#152238">6. Draw Call</text>
+    <text x="655" y="600" font-size="20" fill="#4c5b70">OpenGL draws</text>
+    <text x="655" y="628" font-size="20" fill="#4c5b70">triangles</text>
+
+    <rect x="990" y="510" width="280" height="140" rx="18" fill="#ffffff" stroke="#cad3df" stroke-width="2"/>
+    <text x="1025" y="562" font-size="28" font-weight="700" fill="#152238">7. Render Loop</text>
+    <text x="1025" y="600" font-size="20" fill="#4c5b70">clear, draw, present,</text>
+    <text x="1025" y="628" font-size="20" fill="#4c5b70">repeat</text>
+
+    <line x1="390" y1="370" x2="390" y2="495" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="540" y1="580" x2="605" y2="580" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="910" y1="580" x2="975" y2="580" stroke="#2f6fed" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <rect x="255" y="750" width="890" height="70" rx="16" fill="#e9f1ff" stroke="#aac5ff"/>
+    <text x="305" y="795" font-size="26" font-weight="700" fill="#152238">Main idea: your CPU code prepares data; the GPU turns that data into pixels.</text>
+  </g>
+</svg>
