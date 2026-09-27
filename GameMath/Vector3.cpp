@@ -51,7 +51,7 @@ struct  Vector3 {
 	//
 	// This is the 3D extension of the Pythagorean Theorem.
 	// ==========================================================
-	constexpr float Distance(Vector3 otherPoint) {
+	float Distance(Vector3 otherPoint) {
 		float dx = X - otherPoint.X;
 	    float dy = Y - otherPoint.Y;
 		float dz = Z - otherPoint.Z;
@@ -147,7 +147,7 @@ struct  Vector3 {
 	//
 	// Normalized = V / |V|
 	// ==========================================================
-	constexpr  Vector3 normalization() {
+	Vector3 normalization() {
 
 		float length  = std::sqrtf(X * X + Y * Y + Z * Z);
 		float normalized_x = X / length;

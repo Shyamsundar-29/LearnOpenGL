@@ -40,7 +40,7 @@ struct  Vector2 {
 	//
 	// Derived from the Pythagorean Theorem.
 	// ==========================================================
-	constexpr float Distance(Vector2 otherPoint) {
+	float Distance(Vector2 otherPoint) {
 		float dx = X - otherPoint.X;
 		float dy = Y - otherPoint.Y;
 		return std::sqrtf(dx * dx + dy * dy);
@@ -130,7 +130,7 @@ struct  Vector2 {
 	// The direction stays the same,
 	// but the new vector has length = 1.
 	// ==========================================================
-	constexpr  Vector2 normalization() {
+	Vector2 normalization() {
 
 		float length = std::sqrtf(X * X + Y * Y);
 		float normalized_x = X / length;
